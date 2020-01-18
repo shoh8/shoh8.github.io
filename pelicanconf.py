@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = 'shoh8'
 SITENAME = 'shoh8 github portal'
 ## in develop, siteurl blank
-SITEURL_ABS = SITEURL = 'https://shoh8.github.io'
+SITEURL = ''
 
 # pelican configuration
 PATH = 'content'
