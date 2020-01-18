@@ -6,14 +6,14 @@ Slug: slug-name
 Authors: shoh8
 Summary: a summary for this post
 
-# title1
-## title2
-### title3
-<!--
-#### title4
-##### title5
-###### title6
--->
+Page Title
+=================
+
+[TOC]
+
+# heading1 (unuse)
+## heading2
+### heading3
 
 ## cheat
 
@@ -47,6 +47,15 @@ cccc(no space line is concateneted.)
 ```
 aaaa
 ```
+
+### code hightlight
+
+    #!python
+    print 'hoge'
+    print 'hoge'
+    print 'hoge'
+    print 'hoge'
+    print 'hoge'
 
 ### hr
 
@@ -90,6 +99,7 @@ ___
 
 ### link
 
-[link text](#path/to/page)
+this is [link text](#path/to/page)
+
 - [google](https://google.com)
 - [shoh8](https://shoh8.github.io)

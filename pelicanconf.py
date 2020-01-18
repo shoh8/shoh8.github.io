@@ -2,17 +2,29 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# site information
 AUTHOR = 'shoh8'
 SITENAME = 'shoh8 github portal'
+## in develop, siteurl blank
 SITEURL = ''
 
+# pelican configuration
 PATH = 'content'
 
-TIMEZONE = 'Asia/Tokyo'
-
-DEFAULT_LANG = 'en'
-
 THEME = 'theme'
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_CATEGORIES_ON_MENU = True
+
+SUMMARY_MAX_LENGTH = None
+
+# location lang settings
+TIMEZONE = 'Asia/Tokyo'
+DATE_FORMATS = {
+    'en': '%a, %d %b %Y',
+    'ja': '%Y-%m-%d(%a)',
+}
+DEFAULT_LANG = 'ja'
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
