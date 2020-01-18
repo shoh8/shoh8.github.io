@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = 'shoh8'
 SITENAME = 'shoh8 github portal'
 ## in develop, siteurl blank
-SITEURL = ''
+SITEURL_ABS = SITEURL = 'https://shoh8.github.io'
 
 # pelican configuration
 PATH = 'content'
@@ -14,8 +14,6 @@ PATH = 'content'
 THEME = 'theme'
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True
-
-SUMMARY_MAX_LENGTH = None
 
 # location lang settings
 TIMEZONE = 'Asia/Tokyo'
@@ -43,4 +41,4 @@ SOCIAL = (('twitter', 'https://twitter.com/shoh8'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
